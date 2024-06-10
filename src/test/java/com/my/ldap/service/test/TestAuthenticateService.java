@@ -21,7 +21,7 @@ public class TestAuthenticateService {
     @Test
     public void test(){
         String userName = "bennylo";// ElsaWin
-        String password = "12qwasZX";// elsa@WIN
+        String password = "your pass";// elsa@WIN
         System.out.println(service.authenticateUser(userName, password));
     }
 }
